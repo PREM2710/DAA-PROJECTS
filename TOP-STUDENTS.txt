@@ -1,0 +1,34 @@
+Summary of the Code
+This Python program is a simple Student Management System built using the tkinter library for a graphical user interface (GUI). The program allows users to:
+
+Add Student Data: Enter the student’s name and marks (out of 100), and add the student to a list.
+Display Top Students: Filter and display students who scored 90% or above, sorted in descending order by marks using the QuickSort algorithm.
+Display All Students: Show a list of all students with their names and marks.
+Error Handling: The program includes error handling for invalid input (non-numeric marks, empty input, etc.) and displays error or success messages via message boxes.
+Key Components of the Code:
+Student Class:
+
+Defines each student with a name and marks attribute.
+The __repr__ method is used to display the student's details.
+QuickSort Algorithm:
+
+A sorting algorithm used to order students by their marks in descending order. The pivot element is the student's marks, and the array is partitioned around it.
+Functions:
+
+add_student(): Takes input for student name and marks, validates it, and adds the student to the list.
+find_top_students(): Filters students with marks ≥ 90%, sorts them, and displays the top N students.
+display_all_students(): Displays all students' names and marks.
+Tkinter GUI:
+
+Input Fields: Allows the user to input student data (name and marks) and the number of top students to display.
+Buttons: Triggers actions like adding students, finding top students, or displaying all students.
+Text Widget: Used to display the results of actions (list of top students or all students).
+Error Handling:
+
+Uses message boxes to display error messages for invalid data or empty lists, providing a user-friendly interface.
+Execution Flow:
+The program runs a GUI where users can input data, click buttons to perform actions (add students, find top students, display all students), and receive results or feedback in the text area.
+In short, this program manages student data, sorts it, and provides a clear, interactive interface for adding and displaying student information based on their marks.
+
+
+
